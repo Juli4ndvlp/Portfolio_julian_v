@@ -515,7 +515,11 @@ section {
     color: var(--gold-dk);
 }
 
-.project-info {}
+.project-info {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
 
 .project-title {
     font-family: var(--font-display);
